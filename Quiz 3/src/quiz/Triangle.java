@@ -33,7 +33,11 @@ public class Triangle extends GeometricObject {
 	public double getPerimeter(){
 		return side1+side2+side3;
 	}
-	
+	public String ToString(){
+		return "Side1= " +side1;
+		return "Side2= " +side2;
+		return "Side3= " +side3;
+	}
 	
 	
 	
